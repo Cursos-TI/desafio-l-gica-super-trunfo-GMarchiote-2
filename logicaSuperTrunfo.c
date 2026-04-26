@@ -199,13 +199,13 @@ int main() {
             }
             case 5:
             {
-                if (densidade_pop1 > densidade_pop2)
+                if (densidade_pop1 < densidade_pop2)
                 {
                     printf("Carta 1 - %s vs Carta 2 %s\n", nome_pais, nome_pais2);
                     printf("Atributo que está sendo comparado: Densidade demográfica\n");
                     printf("Densidade demográfica do país %s: %.2f - Densidade demográfica do país %s: %.2f\n", nome_pais, densidade_pop1, nome_pais2, densidade_pop2);
                     printf("*** Carta 1 venceu! ***\n");
-                }   else if (densidade_pop1 < densidade_pop2)
+                }   else if (densidade_pop1 > densidade_pop2)
                 {
                     printf("Carta 1 - %s vs Carta 2 %s\n", nome_pais, nome_pais2);
                     printf("Atributo que está sendo comparado: Densidade demográfica\n");
